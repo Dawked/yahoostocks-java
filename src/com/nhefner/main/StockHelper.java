@@ -9,7 +9,7 @@ public class StockHelper {
 	}
 	
 	public double handleDouble(String x) {
-		Double y;
+		double y;
 		if (Pattern.matches("N/A", x)) {  
 			y = 0.00;   
 		} else { 
